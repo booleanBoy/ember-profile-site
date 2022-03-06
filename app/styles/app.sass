@@ -4,6 +4,10 @@ html body
   margin:0
   padding:0
 
+.central-column-grid
+  display: grid
+  grid-template-columns: 200px 1fr 200px
+
 .menu
   background-color: colors.$background-color
   display: flex
@@ -19,3 +23,9 @@ html body
       padding: 10px
     .menu-item
       color: green
+
+
+.card-container
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))
+  grid-gap: 30px
