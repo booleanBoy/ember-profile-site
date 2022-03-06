@@ -21,6 +21,8 @@ This repository contains the code of a hastely put together portfolio site, the 
   - Chromatic Testing
   - Publishing to GitHub Pages
 
+Everything below this point is the default readme from the new Ember project generator.
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
