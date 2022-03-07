@@ -1,3 +1,7 @@
-<div>
-  Here will be a card of content
+<div
+  {{on 'click' this.toggleSelected}}
+  class='card {{if this.isSelected "selected"}}'
+  ...attributes
+>
+  {{@title}}
 </div>

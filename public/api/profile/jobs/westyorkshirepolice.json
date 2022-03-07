@@ -1,0 +1,21 @@
+{
+  "key": "westyorkshirepolice",
+  "employer": {
+    "name": "West Yorkshire Police",
+    "location": "Wakefield, UK"
+  },
+  "title": "Video Editor",
+  "description": "Made fake videos to show innocent people commiting crimes.",
+  "startdate": "2005/01",
+  "enddate": "2005/05",
+  "tags": {
+    "technologies": ["video editing"],
+    "competencies": ["video editing"],
+    "industries": ["policing"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(25,25,25)"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "key": "londonsouthbankuniversity",
+  "employer": {
+    "name": "London South Bank University",
+    "location": "London, UK"
+  },
+  "title": "Guest Lecturer: Unity and Game Design",
+  "description": "Teaching \"the kids\" how to code and design 3D games.",
+  "startdate": "2012/05",
+  "enddate": "2013/03",
+  "tags": {
+    "technologies": ["unity", "js"],
+    "competencies": ["game design", "teaching"],
+    "industries": ["education"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(25,25,25)"
+    }
+  }
+}

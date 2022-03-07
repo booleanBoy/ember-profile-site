@@ -1,0 +1,21 @@
+{
+  "key": "blippar",
+  "employer": {
+    "name": "Blippar",
+    "location": "Amsterdam, NL"
+  },
+  "title": "Education Content Lead",
+  "description": "Leading the creation of educational AR content with my team.",
+  "startdate": "2014/03",
+  "enddate": "2017/03",
+  "tags": {
+    "technologies": ["ar", "js", "json", "git"],
+    "competencies": ["leadership", "ux", "pedagogy"],
+    "industries": ["education", "mobile app"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(25,25,25)"
+    }
+  }
+}

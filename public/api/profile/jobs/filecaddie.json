@@ -1,0 +1,36 @@
+{
+  "key": "filecaddie",
+  "employer": {
+    "name": "Filecaddie",
+    "location": "Amsterdam, NL"
+  },
+  "title": "Founder, Chief Product Officer, CTO",
+  "description": "I did a tech start up, it was fun, until it wasn't.",
+  "startdate": "2018/01",
+  "enddate": "2020/12",
+  "tags": {
+    "technologies": [
+      "react-native",
+      "firebase",
+      "opencv",
+      "android",
+      "redux",
+      "json"
+    ],
+    "competencies": [
+      "start-up-founder",
+      "business-administration",
+      "product-design",
+      "ui",
+      "ux",
+      "git",
+      "user-testing"
+    ],
+    "industries": ["personal-administration", "app-development", "start-up"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(0,0,255)"
+    }
+  }
+}

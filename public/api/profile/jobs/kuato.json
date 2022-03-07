@@ -1,0 +1,21 @@
+{
+  "key": "kuato",
+  "employer": {
+    "name": "Kuato Studios",
+    "location": "London, UK"
+  },
+  "title": "Unity Programmer and Game Designer",
+  "description": "Programmer and designed the studios first game.",
+  "startdate": "2012/05",
+  "enddate": "2013/03",
+  "tags": {
+    "technologies": ["unity", "c#", "ar", "svn"],
+    "competencies": ["game design", "teaching"],
+    "industries": ["education", "mobile app"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(25,25,25)"
+    }
+  }
+}

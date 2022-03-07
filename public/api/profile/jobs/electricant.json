@@ -1,0 +1,21 @@
+{
+  "key": "electricant",
+  "employer": {
+    "name": "Electric Ant Lab",
+    "location": "Amsterdam, NL"
+  },
+  "title": "Frontend",
+  "description": "Particle and fluid simulations product. Made forms. Made 3D rendering systems.",
+  "startdate": "2020/05",
+  "enddate": "2021/06",
+  "tags": {
+    "technologies": ["react", "redux", "gatsby", "three-js", "json"],
+    "competencies": ["ui", "ux", "git", "merge-requests"],
+    "industries": ["physics", "modelling"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(25,25,25)"
+    }
+  }
+}

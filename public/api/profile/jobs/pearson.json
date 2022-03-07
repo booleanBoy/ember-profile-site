@@ -1,0 +1,21 @@
+{
+  "key": "pearson",
+  "employer": {
+    "name": "Pearson Education",
+    "location": "Harlow, Essex, UK"
+  },
+  "title": "Lead Game Designer",
+  "description": "I copied files from CD-ROMs to an internal network drive. This was a job well within my technical competencies...",
+  "startdate": "2010/01",
+  "enddate": "2010/03",
+  "tags": {
+    "technologies": ["flash", "lms", "php", "xml"],
+    "competencies": ["game-design", "ux", "project-management"],
+    "industries": ["edtech", "education", "publishing", "online-games"]
+  },
+  "siteData": {
+    "colors": {
+      "primary": "rgb(0,255,0)"
+    }
+  }
+}
