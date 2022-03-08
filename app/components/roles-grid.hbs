@@ -1,6 +1,6 @@
 {{!-- {{yield}} --}}
 <div class='card-container'>
-  <RolesGrid::RoleCard @title='CTO' />
-  <RolesGrid::RoleCard @title='React Developer' />
-  <RolesGrid::RoleCard @title='Barmaid' />
+  {{#each @roles as |role|}}
+    <RolesGrid::RoleCard @role={{role}} />
+  {{/each}}
 </div>

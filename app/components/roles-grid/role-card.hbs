@@ -3,5 +3,14 @@
   class='card {{if this.isSelected "selected"}}'
   ...attributes
 >
-  {{@title}}
+  <div class='card-bg' style='background-image: url("{{this.src}}");'>
+  </div>
+
+  <div class='card-content'>
+
+    <div>{{@role.employer.name}}</div>
+    <div>
+      {{@role.title}}
+    </div>
+  </div>
 </div>
