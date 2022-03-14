@@ -7,7 +7,6 @@ export default class RolesGridRoleCardComponent extends Component {
   @action toggleSelected() {
     this.isSelected = !this.isSelected;
   }
-
   get src() {
     const { role } = this.args;
     return `/api/profile/images/${role.key}.jpg`;

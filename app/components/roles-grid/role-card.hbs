@@ -2,8 +2,13 @@
   {{on 'click' this.toggleSelected}}
   class='card {{if this.isSelected "selected"}}'
   ...attributes
+  {{!-- style={{inlineStyle}} --}}
 >
-  <div class='card-bg' style='background-image: url("{{this.src}}");'>
+  <div
+    class='card-bg'
+    {{! style='background-image: url(blippar.jpg)' }}
+    style={{html-safe (concat 'background-image: url(' this.src ')')}}
+  >
   </div>
 
   <div class='card-content'>
