@@ -1,0 +1,191 @@
+{
+  "role": [
+    {
+      "id": "blippar",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "Blippar",
+          "location": "Amsterdam, NL"
+        },
+        "title": "Education Content Lead",
+        "description": "Leading the creation of educational AR content with my team.",
+        "startdate": "2014/03",
+        "enddate": "2017/03",
+        "tags": {
+          "technologies": ["ar", "js", "json", "git"],
+          "competencies": ["leadership", "ux", "pedagogy"],
+          "industries": ["education", "mobile app"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(25,25,25)"
+          }
+        }
+      }
+    },
+    {
+      "id": "electricant",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "Electric Ant Lab",
+          "location": "Amsterdam, NL"
+        },
+        "title": "Frontend",
+        "description": "Particle and fluid simulations product. Made forms. Made 3D rendering systems.",
+        "startdate": "2020/05",
+        "enddate": "2021/06",
+        "tags": {
+          "technologies": ["react", "redux", "gatsby", "three-js", "json"],
+          "competencies": ["ui", "ux", "git", "merge-requests"],
+          "industries": ["physics", "modelling"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(25,25,25)"
+          }
+        }
+      }
+    },
+    {
+      "id": "filecaddie",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "Filecaddie",
+          "location": "Amsterdam, NL"
+        },
+        "title": "Founder, Chief Product Officer, CTO",
+        "description": "I did a tech start up, it was fun, until it wasn't.",
+        "startdate": "2018/01",
+        "enddate": "2020/12",
+        "tags": {
+          "technologies": [
+            "react-native",
+            "firebase",
+            "opencv",
+            "android",
+            "redux",
+            "json"
+          ],
+          "competencies": [
+            "start-up-founder",
+            "business-administration",
+            "product-design",
+            "ui",
+            "ux",
+            "git",
+            "user-testing"
+          ],
+          "industries": [
+            "personal-administration",
+            "app-development",
+            "start-up"
+          ]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(0,0,255)"
+          }
+        }
+      }
+    },
+    {
+      "id": "kuato",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "Kuato Studios",
+          "location": "London, UK"
+        },
+        "title": "Unity Programmer and Game Designer",
+        "description": "Programmer and designed the studios first game.",
+        "startdate": "2012/05",
+        "enddate": "2013/03",
+        "tags": {
+          "technologies": ["unity", "c#", "ar", "svn"],
+          "competencies": ["game design", "teaching"],
+          "industries": ["education", "mobile app"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(25,25,25)"
+          }
+        }
+      }
+    },
+    {
+      "id": "londonsouthbankuniversity",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "London South Bank University",
+          "location": "London, UK"
+        },
+        "title": "Guest Lecturer: Unity and Game Design",
+        "description": "Teaching \"the kids\" how to code and design 3D games.",
+        "startdate": "2012/05",
+        "enddate": "2013/03",
+        "tags": {
+          "technologies": ["unity", "js"],
+          "competencies": ["game design", "teaching"],
+          "industries": ["education"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(25,25,25)"
+          }
+        }
+      }
+    },
+    {
+      "id": "pearson",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "Pearson Education",
+          "location": "Harlow, Essex, UK"
+        },
+        "title": "Lead Game Designer",
+        "description": "I copied files from CD-ROMs to an internal network drive. This was a job well within my technical competencies...",
+        "startdate": "2010/01",
+        "enddate": "2010/03",
+        "tags": {
+          "technologies": ["flash", "lms", "php", "xml"],
+          "competencies": ["game-design", "ux", "project-management"],
+          "industries": ["edtech", "education", "publishing", "online-games"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(0,255,0)"
+          }
+        }
+      }
+    },
+    {
+      "id": "westyorkshirepolice",
+      "type": "role",
+      "attributes": {
+        "employer": {
+          "name": "West Yorkshire Police",
+          "location": "Wakefield, UK"
+        },
+        "title": "Video Editor",
+        "description": "Made fake videos to show innocent people commiting crimes.",
+        "startdate": "2005/01",
+        "enddate": "2005/05",
+        "tags": {
+          "technologies": ["video editing"],
+          "competencies": ["video editing"],
+          "industries": ["policing"]
+        },
+        "siteData": {
+          "colors": {
+            "primary": "rgb(25,25,25)"
+          }
+        }
+      }
+    }
+  ]
+}
