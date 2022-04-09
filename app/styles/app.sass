@@ -1,8 +1,11 @@
 @use 'colors'
+@use 'shadows'
 
 html body
   margin:0
   padding:0
+  background-color: colors.$background-color
+  color: colors.$primary-color
 
 .central-column-grid
   display: grid
@@ -10,20 +13,23 @@ html body
 
 a
   text-decoration: none
+  text-shadow: none
+  background-image: none
 
 .menu
-  background-color: colors.$background-color
+  background-color: colors.$background-color2
   display: flex
   flex-direction: row
   align-items: center
-  padding: 10px
+  padding: 10px 150px
   .links
     display: flex
     flex-direction: row
+    margin-left: 50px
     .menu-item-container
-      padding: 10px
+      padding: 10px 10px
     .menu-item
-      color: green
+      color: colors.$tertiary-color
 
 
 .card-container
@@ -32,10 +38,9 @@ a
   grid-gap: 30px
 
 .card
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+  box-shadow: shadows.$standard
   transition: 0.3s
   height: 200px
-  background: white
   display: flex
   flex-direction: column
   justify-content: flex-end
@@ -45,7 +50,7 @@ a
   overflow: hidden
   position: relative
   &:hover
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2)
+    box-shadow: shadows.$heavy
   .card-bg
     background-position: center
     background-repeat: no-repeat
@@ -65,7 +70,7 @@ a
     display: flex
     flex-direction: column
     align-items: flex-end
-    background-color: rgba(0,0,0,0.5)
+    background-color: rgba(0,0,0,0.25)
     width: 100%
 
 .flex-column

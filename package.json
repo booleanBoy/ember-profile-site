@@ -68,5 +68,9 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "typography": "^0.16.21",
+    "typography-theme-lincoln": "^0.16.19"
   }
 }
