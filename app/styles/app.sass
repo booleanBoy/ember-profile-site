@@ -8,14 +8,15 @@ html body
   display: grid
   grid-template-columns: 200px 1fr 200px
 
+a
+  text-decoration: none
+
 .menu
   background-color: colors.$background-color
   display: flex
   flex-direction: row
   align-items: center
   padding: 10px
-  a
-    text-decoration: none
   .links
     display: flex
     flex-direction: row
@@ -66,3 +67,7 @@ html body
     align-items: flex-end
     background-color: rgba(0,0,0,0.5)
     width: 100%
+
+.flex-column
+  display: flex
+  flex-direction: column

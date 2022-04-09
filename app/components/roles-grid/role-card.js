@@ -9,6 +9,6 @@ export default class RolesGridRoleCardComponent extends Component {
   }
   get src() {
     const { role } = this.args;
-    return `/api/profile/images/${role.key}.jpg`;
+    return `/api/profile/images/${role.id}.jpg`;
   }
 }
