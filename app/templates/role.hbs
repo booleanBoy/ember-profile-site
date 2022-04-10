@@ -1,4 +1,16 @@
 <div class='flexColumn'>
   <div>I'm the role template</div>
-  <div>{{@model.title}}</div>
+  {{#let @model as |role|}}
+    {{role.title}}
+
+    <div>{{role.description}}</div>
+    <div>{{role.employer.name}}</div>
+    <div>{{role.employer.location}}</div>
+    {{#each-in role.tags as |groupName groupTags|}}
+      <div>{{groupName}}</div>
+      {{#each groupTags as |tagName|}}
+        <div>{{tagName}}</div>
+      {{/each}}
+    {{/each-in}}
+  {{/let}}
 </div>
