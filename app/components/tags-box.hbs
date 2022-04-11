@@ -1,0 +1,12 @@
+<div class='tags-container'>
+  {{#each-in @tags as |groupName groupTags|}}
+    <div class='tag-group'>
+      <h3>{{capitalise-first-word groupName}}</h3>
+      <ul>
+        {{#each groupTags as |tagName|}}
+          <li>{{capitalise-first-word tagName}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/each-in}}
+</div>
